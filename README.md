@@ -2,7 +2,7 @@
 
 A 2D top-down office simulation game built in Unity and C#, with absurdist humor. Employees run their own tasks, queue up for shared stations, and get judged at the end of each day.
 
-**[Play it on itch.io](https://xxaerynn.itch.io/wheres-the-manual)**
+**[Play it on itch.io](https://ayseskrbl.itch.io/wheres-the-manual)**
 
 ## Features
 
