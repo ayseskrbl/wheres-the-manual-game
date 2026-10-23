@@ -6,12 +6,12 @@ A 2D top-down office simulation game built in Unity and C#, with absurdist humor
 
 ## Features
 
-- **Employees run their own tasks** : mail, printer, overheat breaks — using a coroutine-based task system, with a `needsHelp` flag so tasks don't conflict with each other.
+- **Employees run their own tasks** : mail, printer, overheat breaks : using a coroutine-based task system, with a `needsHelp` flag so tasks don't conflict with each other.
 - **Queue system** : built around an `IWorkStation` interface, so any station (printer, boss's chair, etc.) can use the same waiting-in-line logic.
 - **A\* pathfinding on a hex grid** : I moved this from a square grid to a hexagonal one to make movement look more natural, with the grid updating dynamically through the manager.
 - **Item carrying** : an enum-based (Hand/Head) system, with sorting order handled so carried items render correctly on top of the character.
 - **Printer & ink mechanic** : employees queue at the printer, react when it runs out of ink, and wait until it's working again.
-- **End-of-day nicknames & rulebook** : tracks 10 stats across 3 groups (duty/absurdity/suffering), then picks a nickname and a rulebook line for each employee based on their highest stats. This is where most of the game's humor comes from.
+- **End-of-day nicknames & rulebook** : tracks 10 stats across 3 groups (duty/absurdity/suffering), then picks a nickname and a rulebook line for the boss (player) based on their highest stats. This is where most of the game's humor comes from.
 - **Day cycle, main menu, settings** : scene navigation between menus and the office, driven by a day/clock system.
 - **WebGL build** : playable in-browser on itch.io.
 
